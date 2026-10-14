@@ -11,6 +11,6 @@ Friendly Note — polityka prywatności, usuwanie konta i app-ads.txt
 Statyczne strony HTML, lokalne grafiki i CSS, bez analityki i zewnętrznych fontów.
 Treści w obu językach można zaktualizować w `scripts/build-mapguide.py`, a następnie uruchomić `python3 scripts/build-mapguide.py`.
 Workflow publikuje tylko jawnie wskazane pliki stron; skrypt generujący nie trafia do witryny.
-Podgląd ikony jest przygotowany z grafiki koncepcyjnej; można zastąpić `mapguide/assets/mapguide-icon.png` docelowym plikiem.
+Ikona pochodzi z dostarczonej paczki MapGuide 4f. `mapguide/assets/mapguide-icon-4f.png` to wariant z przezroczystymi rogami dla logo, ilustracji i favicon; `mapguide-icon-4f-square.png` to kwadratowy wariant RGB dla apple-touch-icon i podglądu udostępniania. Oryginały są zachowane w repozytorium aplikacji w `assets/branding/`.
 
 Pełna polityka prywatności jest dostępna we wszystkich 9 językach aplikacji. Wersja angielska znajduje się pod `/mapguide/privacy/`, pozostałe pod `/mapguide/<kod>/privacy/` (`pl`, `de`, `es`, `fr`, `it`, `uk`, `zh-Hans`, `ja`). Dodatkowe tłumaczenia polityki są w `scripts/privacy-translations.json`; `scripts/build-mapguide.py` generuje łącznie 13 stron.
