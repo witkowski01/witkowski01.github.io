@@ -1,5 +1,6 @@
 #!/usr/bin/env python3
-"""Build six static MapGuide pages. Python standard library only."""
+"""Build static MapGuide pages and privacy policies in nine languages. Python standard library only."""
+import json
 from html import escape
 from pathlib import Path
 from urllib.parse import quote
@@ -137,8 +138,12 @@ DATA = {
 ]}
 }
 
+POLICY_LANGUAGES = {"en":"English", "pl":"Polski", "de":"Deutsch", "es":"Español", "fr":"Français", "it":"Italiano", "uk":"Українська", "zh-Hans":"简体中文", "ja":"日本語"}
+POLICY_DATA = {"en": DATA["en"], "pl": DATA["pl"], **json.loads(Path(__file__).with_name("privacy-translations.json").read_text(encoding="utf-8"))}
+
+
 def url(lang, page=""):
-    return "/mapguide/" + ("pl/" if lang == "pl" else "") + (page + "/" if page else "")
+    return "/mapguide/" + (lang + "/" if lang != "en" else "") + (page + "/" if page else "")
 
 def faq(items):
     return '<div class="faq-list">' + ''.join(f'<details><summary>{escape(q)}</summary><p>{escape(a)}</p></details>' for q,a in items) + '</div>'
@@ -173,14 +178,39 @@ def support(lang):
     return f'''<main id="main" class="wrap"><div class="document-hero"><p class="eyebrow">MapGuide</p><h1>{d['support']}</h1><p class="lede">{d['support_intro']}</p></div><div class="support-main"><section class="contact-box"><h2>{d['email_title']}</h2><p>{d['email_intro']}</p><a class="contact-email" href="mailto:{EMAIL}?subject={quote(d['support_subject'])}">{EMAIL}</a></section><h2>{d['report_title']}</h2><p>{d['report_intro']}</p><ul class="report-list">{''.join(f'<li>{escape(t)}</li>' for t in d['report_items'])}</ul><h2>{d['help_title']}</h2>{faq(d['help_faqs'])}<p>{d['support_privacy']}</p><a class="text-link" href="{url(lang,'privacy')}">{d['policy']} →</a></div></main>'''
 
 def privacy(lang):
-    d=DATA[lang]
+    d=POLICY_DATA[lang]
     contents=''.join(f'<li><a href="#{id}">{escape(title)}</a></li>' for id,title,_ in d['sections'])
     sections=''.join(f'<section id="{id}"><h2>{i}. {escape(title)}</h2>'+''.join('<p>'+p.replace('{email}',EMAIL)+'</p>' for p in paragraphs)+'</section>' for i,(id,title,paragraphs) in enumerate(d['sections'],1))
     return f'''<main id="main" class="wrap"><div class="document-hero"><p class="eyebrow">MapGuide · iOS</p><h1>{d['policy']}</h1><p class="lede">{d['policy_intro']}</p><p class="meta"><time datetime="2026-10-14">{d['updated']}</time></p></div><div class="document-layout"><aside class="contents" aria-label="{d['contents']}"><strong>{d['contents']}</strong><ol>{contents}</ol></aside><article class="prose"><div class="notice"><p>{d['policy_summary']}</p></div>{sections}</article></div></main>'''
 
+
+def policy_layout(lang):
+    d=POLICY_DATA[lang]
+    label=d.get("language_label", "Język" if lang=="pl" else "Language")
+    support_label=d.get("support_label", DATA[lang]["support"] if lang in DATA else "Support · English")
+    home_lang="pl" if lang=="pl" else "en"
+    alternatives=''.join(f'<link rel="alternate" hreflang="{code if code!="en" else "en-US"}" href="{ORIGIN}{url(code,"privacy")}">' for code in POLICY_LANGUAGES)
+    languages=''.join(f'<a href="{url(code,"privacy")}" lang="{code}" hreflang="{code}"'+(' aria-current="page"' if code==lang else '')+f'>{name}</a>' for code,name in POLICY_LANGUAGES.items())
+    return f'''<!doctype html>
+<html lang="{lang}"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>MapGuide — {escape(d["policy"])}</title><meta name="description" content="{escape(d["policy_intro"],quote=True)}">
+<meta name="theme-color" content="#215d42"><link rel="canonical" href="{ORIGIN}{url(lang,"privacy")}">{alternatives}
+<link rel="alternate" hreflang="x-default" href="{ORIGIN}{url("en","privacy")}">
+<meta property="og:type" content="website"><meta property="og:title" content="MapGuide — {escape(d["policy"],quote=True)}"><meta property="og:url" content="{ORIGIN}{url(lang,"privacy")}">
+<link rel="icon" type="image/png" href="/mapguide/assets/mapguide-icon.png"><link rel="stylesheet" href="/mapguide/styles.css"></head>
+<body class="policy-page"><header class="site-header"><div class="wrap header-inner"><a class="brand" href="{url(home_lang)}" aria-label="MapGuide"><img src="/mapguide/assets/mapguide-icon.png" width="46" height="46" alt="">MapGuide</a><a class="text-link" href="{url(home_lang,"support")}">{support_label}</a></div></header>
+<nav class="wrap policy-languages" aria-label="{label}">{languages}</nav>
+{privacy(lang)}
+<footer class="site-footer"><div class="wrap footer-inner"><div><div class="footer-brand">MapGuide</div><span>© 2026 · {d["footer"]}</span></div><a href="mailto:{EMAIL}">{EMAIL}</a></div></footer></body></html>'''
+
+
 for lang in DATA:
-    for page,render in [("",home),("support",support),("privacy",privacy)]:
-        directory=ROOT / ("pl" if lang=="pl" else "") / page
+    for page,render in [("",home),("support",support)]:
+        directory=ROOT / (lang if lang!="en" else "") / page
         directory.mkdir(parents=True,exist_ok=True)
         (directory/"index.html").write_text(layout(lang,page,render(lang)),encoding="utf-8")
-print("Built 6 MapGuide pages.")
+for lang in POLICY_LANGUAGES:
+    directory=ROOT / (lang if lang!="en" else "") / "privacy"
+    directory.mkdir(parents=True,exist_ok=True)
+    (directory/"index.html").write_text(policy_layout(lang),encoding="utf-8")
+print("Built 13 MapGuide pages, including privacy policies in all 9 app languages.")

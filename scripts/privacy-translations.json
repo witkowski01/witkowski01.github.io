@@ -1,0 +1,527 @@
+{
+  "de": {
+    "policy": "Datenschutzerklärung",
+    "language_label": "Sprache",
+    "support_label": "Support · English",
+    "policy_intro": "Wie MapGuide für iOS mit Ihren Informationen umgeht und was beim Besuch dieser Website oder beim Kontakt mit dem Support geschieht.",
+    "updated": "Aktualisiert am 14. Oktober 2026",
+    "contents": "Auf dieser Seite",
+    "footer": "Von Konrad Witkowski",
+    "policy_summary": "Ihre Listen und Notizen werden auf Ihrem Gerät gespeichert. MapGuide hat keine Benutzerkonten, Werbung oder Analyse-SDKs. Karten- und Navigationsfunktionen können Suchanfragen und Routendaten an die von Ihnen gewählten Anbieter übermitteln.",
+    "sections": [
+      [
+        "publisher",
+        "Herausgeber und Kontakt",
+        [
+          "MapGuide wird von Konrad Witkowski, Polen, herausgegeben. Fragen zum Datenschutz und Anfragen zu Informationen, die Sie uns übermittelt haben, richten Sie bitte an <a href='mailto:{email}'>{email}</a>."
+        ]
+      ],
+      [
+        "local-data",
+        "Auf Ihrem Gerät gespeicherte Informationen",
+        [
+          "MapGuide speichert Ihre Sammlungen, gespeicherten Orte, eigenen Namen, Notizen, Tags, Koordinaten, Apple-Place-Kennungen, den Reiseverlauf und Einstellungen lokal. Ein noch nicht abgeschlossener Import kann ebenfalls als lokaler Entwurf gespeichert werden. Wir betreiben keinen MapGuide-Server, der Kopien dieser Daten erhält.",
+          "Das Datenverzeichnis der App nutzt den iOS-Dateischutz und ist von der automatischen Gerätesicherung ausgeschlossen. Dies ist ein Schutz durch das Betriebssystem, keine separat verschlüsselte SQLite-Datenbank. Exportieren Sie vor dem Löschen der App eine Sicherung, wenn Sie Ihre Pläne behalten möchten."
+        ]
+      ],
+      [
+        "location",
+        "Standort und Kartendienste",
+        [
+          "MapGuide bittet um Standortzugriff während der Nutzung der App, wenn Sie Ihren aktuellen Standort als Startpunkt einer Tour verwenden oder als Ort speichern möchten. Die App verfolgt Ihren Standort nicht im Hintergrund. Sie können die Berechtigung in den iOS-Einstellungen verwalten und Orte stattdessen manuell eingeben.",
+          "Die Suche nach Orten, die Kartenanzeige, das Auflösen von Apple-Place-Kennungen und der Routenvergleich verwenden Apples MapKit-Dienste. Relevante Suchanfragen, Gebiete und Routenpunkte werden an Apple gesendet; Schätzungen für öffentliche Verkehrsmittel können eine geplante Abfahrtszeit enthalten. Siehe <a href='https://www.apple.com/legal/privacy/data/en/apple-maps/'>Apple Maps &amp; Privacy</a>.",
+          "Für eine aktive Tour ermittelte Koordinaten können lokal zwischengespeichert werden, bis Sie die Tour ausdrücklich beenden oder löschen. Diese temporären Koordinaten sind nicht in exportierten Sicherungen enthalten. Beim Öffnen der Navigation oder von Ortsinformationen in Apple Maps oder Google Maps werden die erforderlichen Orts- oder Routendaten an den jeweiligen Dienst gesendet. Siehe <a href='https://policies.google.com/privacy'>Googles Datenschutzerklärung</a>."
+        ]
+      ],
+      [
+        "sharing",
+        "Export, Import und KI-Assistenten",
+        [
+          "Ein Export oder eine Freigabe erfolgt auf Ihre Initiative. Sicherungsdateien können persönliche Notizen und Koordinaten enthalten. Das gewählte Ziel, etwa ein Dateianbieter oder eine Nachrichten-App, verarbeitet die Datei nach eigenen Bedingungen. Temporäre Exportdateien werden nach Abschluss der Freigabe entfernt.",
+          "Die optionale KI-Planungsfunktion erstellt aus Ihren eingegebenen Planungsdetails lokal einen Prompt und kopiert ihn in die Zwischenablage. Sie entscheiden, ob Sie ihn in einen externen Assistenten einfügen. MapGuide sendet gespeicherte Sammlungen oder Notizen nicht automatisch an einen KI-Anbieter. Importierte Vorschläge werden vor Ihrer Speicherbestätigung geprüft; zum Zuordnen vorgeschlagener Orte wird Apple Maps verwendet."
+        ]
+      ],
+      [
+        "deletion",
+        "Aufbewahrung und Löschung",
+        [
+          "Lokale Listen, Orte, Notizen und der Reiseverlauf bleiben gespeichert, bis Sie sie in der App entfernen oder die App löschen. Nicht verwendete Orte können Sie in den Einstellungen entfernen und einen Importentwurf im Importer verwerfen. Beim Beenden oder Löschen einer Tour werden ihre temporären Anbieterkoordinaten gelöscht. Exportierte Dateien sind separate Kopien: Löschen Sie diese an den Orten oder bei den Diensten, bei denen Sie sie gespeichert haben.",
+          "Wir können nicht auf Daten zugreifen, die nur auf Ihrem Gerät vorhanden sind, und sie weder exportieren noch löschen. Kontaktieren Sie uns, wenn Sie Hilfe bei den Datenverwaltungsfunktionen der App benötigen."
+        ]
+      ],
+      [
+        "support",
+        "Support und Feedback zu Betatests",
+        [
+          "Wenn Sie uns eine E-Mail senden, erhalten wir Ihre E-Mail-Adresse, Ihre Nachricht und die von Ihnen beigefügten Anhänge. Wir verwenden diese Informationen, um Ihre Anfrage zu beantworten und das Problem zu untersuchen. Senden Sie keine sensiblen Notizen oder genauen Standorte, sofern sie nicht zur Erklärung Ihrer Anfrage erforderlich sind. Sie können uns um Auskunft, Berichtigung oder Löschung Ihrer Supportkorrespondenz bitten.",
+          "Die App enthält keine Werbung, kein Tracking, keine Analyse und kein SDK eines Drittanbieters zur Absturzmeldung. Bei TestFlight-Tests erfasst Apple automatisch Absturzprotokolle und Nutzungsinformationen und teilt sie sowie Ihr eingereichtes Feedback mit uns. Je nachdem, wie Sie am Test teilnehmen, können Ihr Name und Ihre E-Mail-Adresse enthalten sein. Wir verwenden diese Informationen zur Untersuchung von Problemen und zur Verbesserung von MapGuide. Siehe <a href='https://www.apple.com/legal/privacy/data/en/test-flight/'>TestFlight &amp; Privacy</a>."
+        ]
+      ],
+      [
+        "website",
+        "Diese Website",
+        [
+          "Diese statische Website wird auf GitHub Pages gehostet. Wir fügen keine Analyse, Werbung, Cookies oder Tracking-Skripte hinzu. Bilder und Styles werden von derselben Website geladen; externe Schriftarten oder eingebettete Karten werden nicht geladen.",
+          "GitHub protokolliert die IP-Adressen von Besuchern zu Sicherheitszwecken. Siehe <a href='https://docs.github.com/en/pages/getting-started-with-github-pages/what-is-github-pages#data-collection'>Datenerfassung bei GitHub Pages</a> und die <a href='https://docs.github.com/en/site-policy/privacy-policies/github-general-privacy-statement'>GitHub-Datenschutzerklärung</a>. Externe Dienste haben eigene Datenschutzpraktiken."
+        ]
+      ],
+      [
+        "changes",
+        "Änderungen dieser Erklärung",
+        [
+          "Diese Erklärung kann mit Änderungen an MapGuide aktualisiert werden. Das oben angegebene Datum kennzeichnet die aktuelle Fassung. Wesentliche Änderungen der Datenverarbeitung werden hier beschrieben."
+        ]
+      ]
+    ]
+  },
+  "es": {
+    "policy": "Política de privacidad",
+    "language_label": "Idioma",
+    "support_label": "Soporte · English",
+    "policy_intro": "Cómo trata tu información MapGuide para iOS y qué ocurre cuando visitas este sitio web o contactas con soporte.",
+    "updated": "Actualizada el 14 de octubre de 2026",
+    "contents": "En esta página",
+    "footer": "Creado por Konrad Witkowski",
+    "policy_summary": "Tus listas y notas se guardan en tu dispositivo. MapGuide no tiene cuentas, anuncios ni SDK de análisis. Las funciones de mapas y navegación pueden enviar consultas y datos de rutas a los proveedores que elijas.",
+    "sections": [
+      [
+        "publisher",
+        "Responsable y contacto",
+        [
+          "MapGuide es publicado por Konrad Witkowski, Polonia. Para consultas sobre privacidad o solicitudes relativas a información que nos hayas enviado, escribe a <a href='mailto:{email}'>{email}</a>."
+        ]
+      ],
+      [
+        "local-data",
+        "Información guardada en tu dispositivo",
+        [
+          "MapGuide guarda localmente tus colecciones, lugares guardados, nombres personalizados, notas, etiquetas, coordenadas, identificadores de lugares de Apple, historial de recorridos y preferencias. Una importación sin terminar también puede guardarse como borrador local. No disponemos de un servidor de MapGuide que reciba copias de estos datos.",
+          "El directorio de datos de la aplicación utiliza la protección de archivos de iOS y está excluido de las copias de seguridad automáticas del dispositivo. Es una protección del sistema operativo, no una base de datos SQLite cifrada por separado. Exporta una copia de seguridad antes de eliminar la aplicación si quieres conservar tus planes."
+        ]
+      ],
+      [
+        "location",
+        "Ubicación y servicios de mapas",
+        [
+          "MapGuide solicita acceso a la ubicación mientras usas la aplicación cuando eliges utilizar tu ubicación actual como inicio de un recorrido o guardarla como lugar. No sigue tu ubicación en segundo plano. Puedes gestionar el permiso en los Ajustes de iOS e introducir los lugares manualmente.",
+          "La búsqueda de lugares, la visualización de mapas, la resolución de identificadores de lugares de Apple y la comparación de rutas utilizan los servicios MapKit de Apple. Se envían a Apple las consultas, zonas y puntos de ruta pertinentes; las estimaciones de transporte público pueden incluir una hora de salida prevista. Consulta <a href='https://www.apple.com/legal/privacy/data/en/apple-maps/'>Apple Maps y la privacidad</a>.",
+          "Las coordenadas obtenidas para un recorrido activo pueden almacenarse temporalmente en el dispositivo hasta que finalices o elimines expresamente ese recorrido. Estas coordenadas temporales no se incluyen en las copias exportadas. Al abrir la navegación o la información de un lugar en Apple Maps o Google Maps, se envían a ese servicio los datos necesarios del lugar o la ruta. Consulta la <a href='https://policies.google.com/privacy'>Política de Privacidad de Google</a>."
+        ]
+      ],
+      [
+        "sharing",
+        "Exportaciones, importaciones y asistentes de IA",
+        [
+          "Exportar o compartir es una acción que inicias tú. Los archivos de copia de seguridad pueden contener notas personales y coordenadas. El destino que elijas, como un proveedor de archivos o una aplicación de mensajería, trata el archivo según sus propias condiciones. Los archivos temporales de exportación se eliminan al terminar de compartir.",
+          "La función opcional de planificación con IA crea una instrucción localmente a partir de los detalles del plan que introduces y la copia en el portapapeles. Tú decides si la pegas en un asistente externo. MapGuide no envía automáticamente colecciones ni notas guardadas a un proveedor de IA. Las propuestas importadas se revisan antes de confirmar que se guarden; para encontrar los lugares propuestos se utiliza Apple Maps."
+        ]
+      ],
+      [
+        "deletion",
+        "Conservación y eliminación",
+        [
+          "Las listas, lugares, notas e historial de recorridos locales se conservan hasta que los borres en la aplicación o elimines la aplicación. Puedes borrar lugares sin usar en Ajustes y descartar un borrador de importación en el importador. Al finalizar o eliminar un recorrido, se borran sus coordenadas temporales del proveedor. Los archivos exportados son copias independientes: elimínalos de los lugares o servicios donde los guardaste.",
+          "No podemos acceder a datos que solo existen en tu dispositivo, ni exportarlos ni eliminarlos. Contacta con nosotros si necesitas ayuda para usar las funciones de gestión de datos de la aplicación."
+        ]
+      ],
+      [
+        "support",
+        "Soporte y comentarios de la beta",
+        [
+          "Si nos escribes por correo electrónico, recibimos tu dirección, el mensaje y los archivos adjuntos que decidas enviar. Los usamos para responder a tu solicitud e investigar el problema. Evita enviar notas sensibles o ubicaciones precisas salvo que sean necesarias para explicar tu solicitud. Puedes pedirnos acceso, corrección o eliminación de la correspondencia con soporte.",
+          "La aplicación no incluye publicidad, seguimiento, análisis ni un SDK externo para informar de fallos. Durante las pruebas con TestFlight, Apple recopila automáticamente registros de fallos e información de uso y los comparte con nosotros, junto con los comentarios que envíes. Esto puede incluir tu nombre y dirección de correo electrónico, según cómo te hayas unido a la prueba. Utilizamos esta información para investigar problemas y mejorar MapGuide. Consulta <a href='https://www.apple.com/legal/privacy/data/en/test-flight/'>TestFlight y la privacidad</a>."
+        ]
+      ],
+      [
+        "website",
+        "Este sitio web",
+        [
+          "Este sitio web estático está alojado en GitHub Pages. No añadimos análisis, publicidad, cookies ni scripts de seguimiento. Las imágenes y los estilos se sirven desde el mismo sitio; no se cargan fuentes externas ni mapas incrustados.",
+          "GitHub registra las direcciones IP de los visitantes por motivos de seguridad. Consulta la <a href='https://docs.github.com/en/pages/getting-started-with-github-pages/what-is-github-pages#data-collection'>recopilación de datos de GitHub Pages</a> y la <a href='https://docs.github.com/en/site-policy/privacy-policies/github-general-privacy-statement'>Declaración de privacidad de GitHub</a>. Los servicios externos tienen sus propias prácticas de privacidad."
+        ]
+      ],
+      [
+        "changes",
+        "Cambios en esta política",
+        [
+          "Esta política puede actualizarse a medida que cambie MapGuide. La fecha indicada arriba identifica la versión actual. Los cambios importantes en el tratamiento de datos se reflejarán aquí."
+        ]
+      ]
+    ]
+  },
+  "fr": {
+    "policy": "Politique de confidentialité",
+    "language_label": "Langue",
+    "support_label": "Assistance · English",
+    "policy_intro": "Comment MapGuide pour iOS traite vos informations, et ce qui se passe lorsque vous consultez ce site ou contactez l’assistance.",
+    "updated": "Mise à jour le 14 octobre 2026",
+    "contents": "Sur cette page",
+    "footer": "Créé par Konrad Witkowski",
+    "policy_summary": "Vos listes et notes sont enregistrées sur votre appareil. MapGuide ne comporte ni comptes, ni publicité, ni SDK d’analyse. Les fonctions de cartes et de navigation peuvent transmettre des recherches et des données d’itinéraire aux fournisseurs que vous choisissez.",
+    "sections": [
+      [
+        "publisher",
+        "Éditeur et contact",
+        [
+          "MapGuide est publié par Konrad Witkowski, en Pologne. Pour toute question sur la confidentialité ou demande concernant des informations que vous nous avez transmises, contactez <a href='mailto:{email}'>{email}</a>."
+        ]
+      ],
+      [
+        "local-data",
+        "Informations enregistrées sur votre appareil",
+        [
+          "MapGuide enregistre localement vos collections, lieux enregistrés, noms personnalisés, notes, étiquettes, coordonnées, identifiants de lieux Apple, historique des sorties et préférences. Une importation inachevée peut aussi être enregistrée comme brouillon local. Nous n’exploitons aucun serveur MapGuide recevant des copies de ces données.",
+          "Le répertoire des données de l’application utilise la protection des fichiers d’iOS et est exclu des sauvegardes automatiques de l’appareil. Il s’agit d’une protection du système d’exploitation, et non d’une base SQLite chiffrée séparément. Exportez une sauvegarde avant de supprimer l’application si vous souhaitez conserver vos plans."
+        ]
+      ],
+      [
+        "location",
+        "Localisation et services cartographiques",
+        [
+          "MapGuide demande l’accès à votre position pendant l’utilisation de l’application lorsque vous choisissez votre position actuelle comme départ d’une sortie ou l’enregistrez comme lieu. L’application ne suit pas votre position en arrière-plan. Vous pouvez gérer l’autorisation dans les Réglages d’iOS et saisir les lieux manuellement.",
+          "La recherche de lieux, l’affichage des cartes, la résolution des identifiants de lieux Apple et la comparaison des itinéraires utilisent les services MapKit d’Apple. Les recherches, zones et points d’itinéraire pertinents sont envoyés à Apple ; les estimations pour les transports en commun peuvent inclure une heure de départ prévue. Consultez <a href='https://www.apple.com/legal/privacy/data/en/apple-maps/'>Apple Maps et la confidentialité</a>.",
+          "Les coordonnées obtenues pour une sortie active peuvent être mises en cache localement jusqu’à ce que vous terminiez ou supprimiez explicitement cette sortie. Ces coordonnées temporaires ne sont pas incluses dans les sauvegardes exportées. L’ouverture de la navigation ou des informations d’un lieu dans Apple Maps ou Google Maps envoie les données de lieu ou d’itinéraire nécessaires à ce service. Consultez les <a href='https://policies.google.com/privacy'>Règles de confidentialité de Google</a>."
+        ]
+      ],
+      [
+        "sharing",
+        "Exportations, importations et assistants IA",
+        [
+          "L’exportation et le partage sont des actions que vous déclenchez. Les fichiers de sauvegarde peuvent contenir des notes personnelles et des coordonnées. La destination choisie, par exemple un fournisseur de fichiers ou une messagerie, traite ce fichier selon ses propres conditions. Les fichiers d’exportation temporaires sont supprimés à la fin du partage.",
+          "La fonction facultative de planification avec l’IA crée localement une consigne à partir des détails de planification saisis et la copie dans le presse-papiers. Vous décidez de la coller ou non dans un assistant externe. MapGuide n’envoie pas automatiquement vos collections ou notes enregistrées à un fournisseur d’IA. Les propositions importées sont examinées avant confirmation de leur enregistrement ; la recherche des lieux correspondants utilise Apple Maps."
+        ]
+      ],
+      [
+        "deletion",
+        "Conservation et suppression",
+        [
+          "Les listes, lieux, notes et l’historique des sorties locaux sont conservés jusqu’à leur suppression dans l’application ou à la suppression de l’application. Vous pouvez supprimer les lieux inutilisés dans les Réglages et abandonner un brouillon dans l’importateur. Terminer ou supprimer une sortie efface ses coordonnées temporaires provenant du fournisseur. Les fichiers exportés sont des copies distinctes : supprimez-les aux emplacements ou dans les services où vous les avez enregistrés.",
+          "Nous ne pouvons ni accéder aux données présentes uniquement sur votre appareil, ni les exporter ou les supprimer. Contactez-nous si vous avez besoin d’aide pour utiliser les fonctions de gestion des données de l’application."
+        ]
+      ],
+      [
+        "support",
+        "Assistance et retours de la bêta",
+        [
+          "Si vous nous envoyez un e-mail, nous recevons votre adresse, votre message et les pièces jointes que vous choisissez d’envoyer. Nous les utilisons pour répondre à votre demande et examiner le problème. Évitez d’envoyer des notes sensibles ou des positions précises, sauf si elles sont nécessaires pour expliquer votre demande. Vous pouvez demander l’accès, la rectification ou la suppression de votre correspondance avec l’assistance.",
+          "L’application ne contient ni publicité, ni suivi, ni analyse, ni SDK tiers de signalement des plantages. Pendant les tests TestFlight, Apple collecte automatiquement des rapports de plantage et des informations d’utilisation et nous les transmet, ainsi que les commentaires que vous soumettez. Selon la façon dont vous rejoignez le test, ils peuvent inclure votre nom et votre adresse e-mail. Nous utilisons ces informations pour examiner les problèmes et améliorer MapGuide. Consultez <a href='https://www.apple.com/legal/privacy/data/en/test-flight/'>TestFlight et la confidentialité</a>."
+        ]
+      ],
+      [
+        "website",
+        "Ce site web",
+        [
+          "Ce site statique est hébergé sur GitHub Pages. Nous n’ajoutons ni analyse, ni publicité, ni cookies, ni scripts de suivi. Les images et les styles proviennent du même site ; aucune police externe ni carte intégrée n’est chargée.",
+          "GitHub consigne les adresses IP des visiteurs à des fins de sécurité. Consultez les informations sur la <a href='https://docs.github.com/en/pages/getting-started-with-github-pages/what-is-github-pages#data-collection'>collecte de données par GitHub Pages</a> et la <a href='https://docs.github.com/en/site-policy/privacy-policies/github-general-privacy-statement'>Déclaration de confidentialité de GitHub</a>. Les services externes ont leurs propres pratiques de confidentialité."
+        ]
+      ],
+      [
+        "changes",
+        "Modifications de cette politique",
+        [
+          "Cette politique peut être mise à jour au fil de l’évolution de MapGuide. La date ci-dessus identifie la version actuelle. Les modifications importantes du traitement des données seront indiquées ici."
+        ]
+      ]
+    ]
+  },
+  "it": {
+    "policy": "Informativa sulla privacy",
+    "language_label": "Lingua",
+    "support_label": "Assistenza · English",
+    "policy_intro": "Come MapGuide per iOS tratta le tue informazioni e cosa succede quando visiti questo sito o contatti l’assistenza.",
+    "updated": "Aggiornata il 14 ottobre 2026",
+    "contents": "In questa pagina",
+    "footer": "Creato da Konrad Witkowski",
+    "policy_summary": "Le tue liste e note sono salvate sul tuo dispositivo. MapGuide non prevede account, pubblicità o SDK di analisi. Le funzioni di mappe e navigazione possono inviare ricerche e dati degli itinerari ai fornitori che scegli.",
+    "sections": [
+      [
+        "publisher",
+        "Editore e contatti",
+        [
+          "MapGuide è pubblicato da Konrad Witkowski, Polonia. Per domande sulla privacy o richieste riguardanti informazioni che ci hai inviato, contatta <a href='mailto:{email}'>{email}</a>."
+        ]
+      ],
+      [
+        "local-data",
+        "Informazioni salvate sul dispositivo",
+        [
+          "MapGuide salva localmente raccolte, luoghi salvati, nomi personalizzati, note, tag, coordinate, identificativi dei luoghi Apple, cronologia delle gite e preferenze. Anche un’importazione incompleta può essere salvata come bozza locale. Non gestiamo un server MapGuide che riceva copie di questi dati.",
+          "La cartella dei dati dell’app utilizza la protezione dei file di iOS ed è esclusa dal backup automatico del dispositivo. Si tratta di una protezione del sistema operativo, non di un database SQLite crittografato separatamente. Esporta un backup prima di eliminare l’app se desideri conservare i tuoi piani."
+        ]
+      ],
+      [
+        "location",
+        "Posizione e servizi di mappe",
+        [
+          "MapGuide richiede l’accesso alla posizione durante l’uso dell’app quando scegli di utilizzare la posizione attuale come partenza di una gita o di salvarla come luogo. Non traccia la tua posizione in background. Puoi gestire l’autorizzazione nelle Impostazioni di iOS e inserire i luoghi manualmente.",
+          "La ricerca dei luoghi, la visualizzazione delle mappe, la risoluzione degli identificativi dei luoghi Apple e il confronto degli itinerari utilizzano i servizi MapKit di Apple. Le ricerche, le aree e i punti dell’itinerario pertinenti vengono inviati ad Apple; le stime per i trasporti pubblici possono includere un orario di partenza previsto. Consulta <a href='https://www.apple.com/legal/privacy/data/en/apple-maps/'>Apple Maps e privacy</a>.",
+          "Le coordinate ottenute per una gita attiva possono essere memorizzate temporaneamente sul dispositivo fino a quando termini o elimini esplicitamente la gita. Queste coordinate temporanee non sono incluse nei backup esportati. Aprendo la navigazione o le informazioni su un luogo in Apple Maps o Google Maps, i dati necessari del luogo o dell’itinerario vengono inviati al servizio scelto. Consulta le <a href='https://policies.google.com/privacy'>Norme sulla privacy di Google</a>."
+        ]
+      ],
+      [
+        "sharing",
+        "Esportazione, importazione e assistenti IA",
+        [
+          "L’esportazione e la condivisione sono azioni avviate da te. I file di backup possono contenere note personali e coordinate. La destinazione scelta, ad esempio un servizio di gestione file o un’app di messaggistica, tratta il file secondo le proprie condizioni. I file temporanei di esportazione vengono rimossi al termine della condivisione.",
+          "La funzione facoltativa di pianificazione con IA crea localmente un prompt dai dettagli del piano che inserisci e lo copia negli appunti. Sei tu a decidere se incollarlo in un assistente esterno. MapGuide non invia automaticamente raccolte o note salvate a un fornitore di IA. Le proposte importate vengono esaminate prima di confermarne il salvataggio; l’associazione dei luoghi proposti utilizza Apple Maps."
+        ]
+      ],
+      [
+        "deletion",
+        "Conservazione ed eliminazione",
+        [
+          "Liste, luoghi, note e cronologia delle gite locali rimangono fino a quando li rimuovi nell’app o elimini l’app. Puoi rimuovere i luoghi inutilizzati nelle Impostazioni e scartare una bozza di importazione nell’importatore. Terminare o eliminare una gita cancella le sue coordinate temporanee del fornitore. I file esportati sono copie separate: eliminali dalle posizioni o dai servizi in cui li hai salvati.",
+          "Non possiamo accedere, esportare o eliminare dati che esistono solo sul tuo dispositivo. Contattaci se hai bisogno di aiuto con le funzioni di gestione dei dati dell’app."
+        ]
+      ],
+      [
+        "support",
+        "Assistenza e feedback della beta",
+        [
+          "Se ci scrivi un’e-mail, riceviamo il tuo indirizzo, il messaggio e gli allegati che scegli di inviare. Li usiamo per rispondere alla richiesta e indagare sul problema. Evita di inviare note sensibili o posizioni precise se non sono necessarie per spiegare la richiesta. Puoi richiedere accesso, rettifica o eliminazione della corrispondenza con l’assistenza.",
+          "L’app non include pubblicità, tracciamento, analisi o SDK di terze parti per la segnalazione degli arresti anomali. Durante i test con TestFlight, Apple raccoglie automaticamente registri degli arresti anomali e informazioni sull’utilizzo e li condivide con noi, insieme ai feedback che invii. A seconda di come hai aderito al test, possono includere il tuo nome e indirizzo e-mail. Utilizziamo queste informazioni per indagare sui problemi e migliorare MapGuide. Consulta <a href='https://www.apple.com/legal/privacy/data/en/test-flight/'>TestFlight e privacy</a>."
+        ]
+      ],
+      [
+        "website",
+        "Questo sito web",
+        [
+          "Questo sito statico è ospitato su GitHub Pages. Non aggiungiamo analisi, pubblicità, cookie o script di tracciamento. Immagini e stili vengono forniti dallo stesso sito; non vengono caricati caratteri esterni o mappe incorporate.",
+          "GitHub registra gli indirizzi IP dei visitatori per motivi di sicurezza. Consulta la <a href='https://docs.github.com/en/pages/getting-started-with-github-pages/what-is-github-pages#data-collection'>raccolta di dati di GitHub Pages</a> e l’<a href='https://docs.github.com/en/site-policy/privacy-policies/github-general-privacy-statement'>Informativa sulla privacy di GitHub</a>. I servizi esterni hanno proprie prassi in materia di privacy."
+        ]
+      ],
+      [
+        "changes",
+        "Modifiche a questa informativa",
+        [
+          "Questa informativa può essere aggiornata con l’evoluzione di MapGuide. La data in alto identifica la versione attuale. Le modifiche rilevanti al trattamento dei dati saranno riportate qui."
+        ]
+      ]
+    ]
+  },
+  "uk": {
+    "policy": "Політика конфіденційності",
+    "language_label": "Мова",
+    "support_label": "Підтримка · English",
+    "policy_intro": "Як MapGuide для iOS обробляє вашу інформацію та що відбувається, коли ви відвідуєте цей сайт або звертаєтеся до підтримки.",
+    "updated": "Оновлено 14 жовтня 2026 року",
+    "contents": "На цій сторінці",
+    "footer": "Автор: Konrad Witkowski",
+    "policy_summary": "Ваші списки й нотатки зберігаються на вашому пристрої. У MapGuide немає облікових записів, реклами чи аналітичних SDK. Функції карт і навігації можуть передавати запити та дані маршрутів обраним вами постачальникам.",
+    "sections": [
+      [
+        "publisher",
+        "Видавець і контакти",
+        [
+          "Видавець MapGuide — Konrad Witkowski, Польща. Запитання про конфіденційність і запити щодо інформації, яку ви нам надіслали, надсилайте на <a href='mailto:{email}'>{email}</a>."
+        ]
+      ],
+      [
+        "local-data",
+        "Інформація на вашому пристрої",
+        [
+          "MapGuide локально зберігає ваші колекції, збережені місця, власні назви, нотатки, теги, координати, ідентифікатори місць Apple, історію подорожей і налаштування. Незавершений імпорт також може зберігатися як локальна чернетка. Ми не маємо сервера MapGuide, який отримував би копії цих даних.",
+          "Каталог даних застосунку використовує захист файлів iOS і виключений з автоматичного резервного копіювання пристрою. Це захист операційної системи, а не окремо зашифрована база SQLite. Якщо бажаєте зберегти свої плани, експортуйте резервну копію перед видаленням застосунку."
+        ]
+      ],
+      [
+        "location",
+        "Місцезнаходження та картографічні служби",
+        [
+          "MapGuide запитує доступ до місцезнаходження під час використання застосунку, коли ви обираєте поточну позицію як початок подорожі або зберігаєте її як місце. Застосунок не відстежує ваше місцезнаходження у фоні. Дозволом можна керувати в Параметрах iOS, а місця вводити вручну.",
+          "Пошук місць, показ карт, визначення місць за ідентифікаторами Apple та порівняння маршрутів використовують служби MapKit від Apple. До Apple передаються відповідні запити, області та точки маршруту; оцінки для громадського транспорту можуть містити запланований час відправлення. Дивіться <a href='https://www.apple.com/legal/privacy/data/en/apple-maps/'>Apple Maps і конфіденційність</a>.",
+          "Координати, отримані для активної подорожі, можуть тимчасово зберігатися на пристрої, доки ви явно не завершите або не видалите цю подорож. Ці тимчасові координати не входять до експортованих резервних копій. Відкриття навігації або інформації про місце в Apple Maps чи Google Maps передає відповідній службі потрібні дані місця або маршруту. Дивіться <a href='https://policies.google.com/privacy'>Політику конфіденційності Google</a>."
+        ]
+      ],
+      [
+        "sharing",
+        "Експорт, імпорт і ШІ-асистенти",
+        [
+          "Експорт і поширення відбуваються з вашої ініціативи. Резервні файли можуть містити особисті нотатки й координати. Обрана вами служба, наприклад файловий провайдер або месенджер, обробляє файл за власними умовами. Тимчасові файли експорту видаляються після завершення поширення.",
+          "Додаткова функція планування з ШІ локально створює запит із введених вами деталей плану й копіює його в буфер обміну. Ви вирішуєте, чи вставляти його в зовнішнього асистента. MapGuide не надсилає збережені колекції чи нотатки постачальнику ШІ автоматично. Імпортовані пропозиції переглядаються до підтвердження збереження; для зіставлення запропонованих місць використовується Apple Maps."
+        ]
+      ],
+      [
+        "deletion",
+        "Зберігання та видалення",
+        [
+          "Локальні списки, місця, нотатки й історія подорожей зберігаються, доки ви не видалите їх у застосунку або сам застосунок. Невикористані місця можна видалити в Налаштуваннях, а чернетку імпорту — відкинути в імпортері. Завершення або видалення подорожі очищає її тимчасові координати від постачальника. Експортовані файли є окремими копіями: видаліть їх із місць або служб, де ви їх зберегли.",
+          "Ми не можемо отримати доступ, експортувати або видалити дані, які існують лише на вашому пристрої. Зверніться до нас, якщо потрібна допомога з функціями керування даними застосунку."
+        ]
+      ],
+      [
+        "support",
+        "Підтримка та відгуки під час бета-тестування",
+        [
+          "Коли ви надсилаєте нам листа, ми отримуємо вашу електронну адресу, повідомлення та вкладення, які ви вирішили надіслати. Ми використовуємо їх для відповіді на звернення та дослідження проблеми. Не надсилайте чутливих нотаток або точного місцезнаходження, якщо вони не потрібні для пояснення звернення. Ви можете попросити доступ, виправлення або видалення листування з підтримкою.",
+          "Застосунок не містить реклами, відстеження, аналітики чи стороннього SDK для звітів про збої. Під час тестування через TestFlight Apple автоматично збирає журнали збоїв та інформацію про використання й передає їх нам разом із надісланими вами відгуками. Залежно від способу приєднання до тесту вони можуть містити ваше ім’я та електронну адресу. Ми використовуємо цю інформацію для дослідження проблем і вдосконалення MapGuide. Дивіться <a href='https://www.apple.com/legal/privacy/data/en/test-flight/'>TestFlight і конфіденційність</a>."
+        ]
+      ],
+      [
+        "website",
+        "Цей вебсайт",
+        [
+          "Цей статичний сайт розміщено на GitHub Pages. Ми не додаємо аналітики, реклами, файлів cookie чи скриптів відстеження. Зображення та стилі завантажуються з цього самого сайту; зовнішні шрифти й вбудовані карти не завантажуються.",
+          "GitHub записує IP-адреси відвідувачів із міркувань безпеки. Дивіться інформацію про <a href='https://docs.github.com/en/pages/getting-started-with-github-pages/what-is-github-pages#data-collection'>збір даних GitHub Pages</a> та <a href='https://docs.github.com/en/site-policy/privacy-policies/github-general-privacy-statement'>Заяву про конфіденційність GitHub</a>. Зовнішні служби мають власні правила конфіденційності."
+        ]
+      ],
+      [
+        "changes",
+        "Зміни цієї політики",
+        [
+          "Ця політика може оновлюватися зі змінами MapGuide. Дата вгорі позначає поточну версію. Істотні зміни в обробці даних будуть описані тут."
+        ]
+      ]
+    ]
+  },
+  "zh-Hans": {
+    "policy": "隐私政策",
+    "language_label": "语言",
+    "support_label": "支持 · English",
+    "policy_intro": "了解 iOS 版 MapGuide 如何处理您的信息，以及您访问本网站或联系支持时会发生什么。",
+    "updated": "更新日期：2026 年 10 月 14 日",
+    "contents": "本页内容",
+    "footer": "开发者：Konrad Witkowski",
+    "policy_summary": "您的列表和笔记保存在您的设备上。MapGuide 不设账户、不投放广告，也不使用分析 SDK。地图和导航功能可能会向您选择的服务提供商发送查询和路线信息。",
+    "sections": [
+      [
+        "publisher",
+        "发布者与联系方式",
+        [
+          "MapGuide 由位于波兰的 Konrad Witkowski 发布。如有隐私问题，或希望就您发送给我们的信息提出请求，请联系 <a href='mailto:{email}'>{email}</a>。"
+        ]
+      ],
+      [
+        "local-data",
+        "保存在设备上的信息",
+        [
+          "MapGuide 在本地保存您的收藏集合、已保存的地点、自定义名称、笔记、标签、坐标、Apple 地点标识符、行程历史记录和偏好设置。未完成的导入也可能保存为本地草稿。我们没有运营用于接收这些数据副本的 MapGuide 服务器。",
+          "应用的数据目录使用 iOS 文件保护，并且不包含在设备自动备份中。这属于操作系统提供的保护，并不代表 SQLite 数据库经过了单独加密。如果您想保留计划，请在删除应用前导出备份。"
+        ]
+      ],
+      [
+        "location",
+        "位置与地图服务",
+        [
+          "当您选择将当前位置用作行程起点，或将其保存为地点时，MapGuide 会请求在使用应用期间访问位置。应用不会在后台跟踪您的位置。您可以在 iOS“设置”中管理权限，也可以手动输入地点。",
+          "搜索地点、显示地图、根据 Apple 地点标识符查找地点以及比较路线均使用 Apple 的 MapKit 服务。相关查询、区域和路线点会发送给 Apple；公共交通时间估算还可能包含计划出发时间。请参阅 <a href='https://www.apple.com/legal/privacy/data/en/apple-maps/'>Apple 地图与隐私</a>。",
+          "为进行中的行程获取的坐标可能会缓存在设备上，直到您明确结束或删除该行程。这些临时坐标不包含在导出的备份中。在 Apple 地图或 Google 地图中打开导航或地点信息时，必要的地点或路线信息会发送给相应服务。请参阅 <a href='https://policies.google.com/privacy'>Google 隐私权政策</a>。"
+        ]
+      ],
+      [
+        "sharing",
+        "导出、导入与 AI 助手",
+        [
+          "导出或共享由您主动发起。备份文件可能包含私人笔记和坐标。您选择的目标服务（例如文件服务提供商或即时通信应用）会按照其自身条款处理该文件。共享结束后，临时导出文件会被删除。",
+          "可选的 AI 规划功能会根据您输入的规划详情在本地生成提示词，并将其复制到剪贴板。您自行决定是否将其粘贴到外部助手中。MapGuide 不会自动向 AI 提供商发送已保存的集合或笔记。导入的建议在您确认保存前会供您检查；匹配建议中的地点会使用 Apple 地图。"
+        ]
+      ],
+      [
+        "deletion",
+        "保留与删除",
+        [
+          "本地列表、地点、笔记和行程历史记录会保留到您在应用中删除它们或删除应用为止。您可以在“设置”中删除未使用的地点，并在导入工具中丢弃导入草稿。结束或删除行程会清除该行程由服务提供商提供的临时坐标。导出的文件是独立副本，请从您保存它们的位置或服务中另行删除。",
+          "我们无法访问、导出或删除仅存在于您设备上的数据。如果您在使用应用的数据管理功能时需要帮助，请联系我们。"
+        ]
+      ],
+      [
+        "support",
+        "支持与测试版反馈",
+        [
+          "当您向我们发送电子邮件时，我们会收到您的邮箱地址、邮件内容以及您选择发送的附件。我们使用这些信息回复您的请求并调查问题。除非解释请求确有必要，请勿发送敏感笔记或精确位置。您可以联系我们，要求访问、更正或删除与支持团队的往来邮件。",
+          "应用不包含广告、跟踪、分析或第三方崩溃报告 SDK。在通过 TestFlight 进行测试期间，Apple 会自动收集崩溃日志和使用信息，并将它们与您提交的反馈一起分享给我们。根据您加入测试的方式，其中可能包含您的姓名和邮箱地址。我们使用这些信息调查问题并改进 MapGuide。请参阅 <a href='https://www.apple.com/legal/privacy/data/en/test-flight/'>TestFlight 与隐私</a>。"
+        ]
+      ],
+      [
+        "website",
+        "本网站",
+        [
+          "本静态网站托管在 GitHub Pages 上。我们不添加分析、广告、Cookie 或跟踪脚本。图片和样式均由本网站提供，不加载外部字体或嵌入式地图。",
+          "GitHub 出于安全目的记录访问者的 IP 地址。请参阅 <a href='https://docs.github.com/en/pages/getting-started-with-github-pages/what-is-github-pages#data-collection'>GitHub Pages 数据收集说明</a>和 <a href='https://docs.github.com/en/site-policy/privacy-policies/github-general-privacy-statement'>GitHub 隐私声明</a>。外部服务有各自的隐私处理规则。"
+        ]
+      ],
+      [
+        "changes",
+        "本政策的变更",
+        [
+          "本政策可能随 MapGuide 的变化而更新。上方日期用于标识当前版本。数据处理方式的重大变更将在此说明。"
+        ]
+      ]
+    ]
+  },
+  "ja": {
+    "policy": "プライバシーポリシー",
+    "language_label": "言語",
+    "support_label": "サポート · English",
+    "policy_intro": "iOS版MapGuideによる情報の取り扱いと、このウェブサイトへのアクセスやサポートへのお問い合わせ時の処理について説明します。",
+    "updated": "更新日：2026年10月14日",
+    "contents": "このページの内容",
+    "footer": "開発者：Konrad Witkowski",
+    "policy_summary": "リストやメモはお使いのデバイスに保存されます。MapGuideにはアカウント、広告、分析SDKはありません。地図やナビゲーション機能では、検索内容や経路情報が選択したサービス提供者に送信される場合があります。",
+    "sections": [
+      [
+        "publisher",
+        "提供者とお問い合わせ先",
+        [
+          "MapGuideの提供者はポーランドのKonrad Witkowskiです。プライバシーに関するご質問や、お送りいただいた情報に関するご依頼は、<a href='mailto:{email}'>{email}</a>までお寄せください。"
+        ]
+      ],
+      [
+        "local-data",
+        "デバイスに保存される情報",
+        [
+          "MapGuideは、コレクション、保存した場所、独自の名前、メモ、タグ、座標、Appleの場所識別子、旅行履歴、設定をローカルに保存します。未完了のインポートもローカルの下書きとして保存される場合があります。これらのデータのコピーを受信するMapGuideサーバーは運営していません。",
+          "アプリのデータフォルダはiOSのファイル保護を使用し、デバイスの自動バックアップの対象から除外されています。これはOSによる保護であり、SQLiteデータベースを個別に暗号化するものではありません。計画を残したい場合は、アプリを削除する前にバックアップをエクスポートしてください。"
+        ]
+      ],
+      [
+        "location",
+        "位置情報と地図サービス",
+        [
+          "MapGuideは、現在地を旅行の出発地点にしたり、場所として保存したりするときに、アプリの使用中の位置情報へのアクセスを求めます。バックグラウンドで位置情報を追跡することはありません。アクセス許可はiOSの「設定」で管理でき、場所を手動で入力することもできます。",
+          "場所の検索、地図の表示、Appleの場所識別子からの場所の取得、経路の比較にはAppleのMapKitサービスを使用します。関連する検索内容、エリア、経路上の地点がAppleに送信されます。公共交通機関の所要時間の見積もりには、予定出発時刻が含まれる場合があります。<a href='https://www.apple.com/legal/privacy/data/en/apple-maps/'>Appleマップとプライバシー</a>をご覧ください。",
+          "進行中の旅行について取得した座標は、その旅行を明示的に終了または削除するまで、デバイスに一時保存される場合があります。これらの一時的な座標はエクスポートしたバックアップには含まれません。AppleマップまたはGoogleマップでナビゲーションや場所の情報を開くと、必要な場所や経路の情報がそのサービスに送信されます。<a href='https://policies.google.com/privacy'>Googleのプライバシーポリシー</a>をご覧ください。"
+        ]
+      ],
+      [
+        "sharing",
+        "エクスポート、インポート、AIアシスタント",
+        [
+          "エクスポートや共有は、ご自身の操作で行われます。バックアップファイルには個人的なメモや座標が含まれる場合があります。ファイルサービスやメッセージアプリなど、選択した送信先は独自の条件に従ってファイルを取り扱います。共有の終了後、一時的なエクスポートファイルは削除されます。",
+          "任意のAI計画機能は、入力した計画の詳細からローカルでプロンプトを作成し、クリップボードにコピーします。外部のアシスタントに貼り付けるかどうかは、ご自身で決めます。MapGuideが保存済みのコレクションやメモをAI提供者に自動送信することはありません。インポートした提案は、保存を確定する前に確認します。提案された場所の照合にはAppleマップを使用します。"
+        ]
+      ],
+      [
+        "deletion",
+        "保存期間と削除",
+        [
+          "ローカルのリスト、場所、メモ、旅行履歴は、アプリ内で削除するか、アプリ自体を削除するまで保持されます。「設定」から未使用の場所を削除でき、インポート画面で下書きを破棄できます。旅行を終了または削除すると、その旅行で使用した提供者由来の一時的な座標は消去されます。エクスポートしたファイルは別のコピーなので、保存した場所やサービスから個別に削除してください。",
+          "お使いのデバイス上にしか存在しないデータに、当方がアクセスしたり、エクスポートまたは削除したりすることはできません。アプリのデータ管理機能についてお困りの場合は、お問い合わせください。"
+        ]
+      ],
+      [
+        "support",
+        "サポートとベータ版のフィードバック",
+        [
+          "メールでお問い合わせいただくと、当方はメールアドレス、本文、ご自身で送信した添付ファイルを受け取ります。これらはお問い合わせへの回答や問題の調査に使用します。説明に必要な場合を除き、機微なメモや正確な位置情報を送信しないでください。サポートとのメールの内容について、アクセス、訂正、削除をご依頼いただけます。",
+          "アプリには広告、追跡、分析、第三者のクラッシュ報告SDKは含まれていません。TestFlightでのテスト中、Appleはクラッシュログと使用状況の情報を自動収集し、送信されたフィードバックとともに当方に共有します。テストへの参加方法によっては、氏名やメールアドレスが含まれる場合があります。当方はこれらの情報を問題の調査とMapGuideの改善に使用します。<a href='https://www.apple.com/legal/privacy/data/en/test-flight/'>TestFlightとプライバシー</a>をご覧ください。"
+        ]
+      ],
+      [
+        "website",
+        "このウェブサイト",
+        [
+          "この静的ウェブサイトはGitHub Pagesでホストされています。当方は分析、広告、Cookie、追跡スクリプトを追加していません。画像やスタイルは同じサイトから提供され、外部フォントや埋め込み地図は読み込まれません。",
+          "GitHubはセキュリティ目的で訪問者のIPアドレスを記録します。<a href='https://docs.github.com/en/pages/getting-started-with-github-pages/what-is-github-pages#data-collection'>GitHub Pagesのデータ収集</a>および<a href='https://docs.github.com/en/site-policy/privacy-policies/github-general-privacy-statement'>GitHubのプライバシーステートメント</a>をご覧ください。外部サービスは独自のプライバシー方針に従います。"
+        ]
+      ],
+      [
+        "changes",
+        "このポリシーの変更",
+        [
+          "このポリシーはMapGuideの変更に伴って更新される場合があります。上記の日付が現在の版を示します。データの取り扱いに関する重要な変更は、このページに記載します。"
+        ]
+      ]
+    ]
+  }
+}
