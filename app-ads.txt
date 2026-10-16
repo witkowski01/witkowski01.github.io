@@ -1,1 +1,3 @@
 google.com, pub-9598136511386787, DIRECT, f08c47fec0942fa0
+
+# BlueAirShare for Android and iOS uses the same publisher entry above.
