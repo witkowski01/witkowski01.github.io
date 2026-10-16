@@ -31,6 +31,7 @@ jobs:
           mkdir _site
           cp -- index.html delete-account.html styles.css icon.png app-ads.txt robots.txt .nojekyll _site/
           cp -R -- mapguide _site/mapguide
+          cp -R -- BlueAirShare _site/BlueAirShare
       - name: Upload website
         uses: actions/upload-pages-artifact@v4
         with:
