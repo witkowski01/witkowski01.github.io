@@ -17,7 +17,7 @@
     const [v, invitationID, deviceID, fingerprint, platform, address, port, issued, expires, secret] = fields;
     if (v !== 'v1' || !uuid.test(invitationID) || !uuid.test(deviceID) || !hex.test(fingerprint) ||
       !['iOS', 'iPadOS', 'android'].includes(platform) || !privateIPv4(address) || port !== '52840' ||
-      !/^(0|[1-9][0-9]{0,11})$/.test(issued) || !/^(0|[1-9][0-9]{0,11})$/.test(expires) || !hex.test(secret)) return { state: 'invalid' };
+      !/^[1-9][0-9]{0,11}$/.test(issued) || !/^[1-9][0-9]{0,11}$/.test(expires) || !hex.test(secret)) return { state: 'invalid' };
     const start = Number(issued), end = Number(expires);
     if (!Number.isSafeInteger(start) || !Number.isSafeInteger(end) || end <= start || end - start > 1800 || start > now + 60) return { state: 'invalid' };
     if (end <= now) return { state: 'expired' };
