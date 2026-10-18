@@ -32,6 +32,7 @@ jobs:
           cp -- index.html delete-account.html styles.css icon.png app-ads.txt robots.txt .nojekyll _site/
           cp -R -- mapguide _site/mapguide
           cp -R -- BlueAirShare _site/BlueAirShare
+          cp -R -- .well-known _site/.well-known
       - name: Upload website
         uses: actions/upload-pages-artifact@v4
         with:

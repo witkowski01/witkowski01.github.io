@@ -1,0 +1,47 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <meta name="referrer" content="no-referrer">
+  <meta http-equiv="Content-Security-Policy" content="default-src 'none'; script-src 'self'; style-src 'self'; img-src 'self'; connect-src 'none'; base-uri 'none'; form-action 'none'">
+  <meta name="apple-itunes-app" content="app-id=6823689893">
+  <meta name="robots" content="noindex,nofollow">
+  <title>BlueAirShare — Pair devices</title>
+  <link rel="stylesheet" href="pair.css">
+  <script defer src="invitation.js"></script>
+  <script defer src="pair.js"></script>
+</head>
+<body>
+  <header><a href="../" class="brand"><img src="logo.png" alt="" width="44" height="44">BlueAirShare</a><button id="language" type="button" aria-label="Zmień język na polski">Polski</button></header>
+  <main>
+    <p class="eyebrow" data-en="LOCAL DEVICE PAIRING" data-pl="PAROWANIE W SIECI LOKALNEJ">LOCAL DEVICE PAIRING</p>
+    <h1 data-en="A scan brings you closer." data-pl="Jeden skan. Właściwe urządzenie.">A scan brings you closer.</h1>
+    <p class="intro" data-en="Connect to the receiving device, choose your files, then compare the PIN on both screens." data-pl="Wybierz urządzenie odbierające, dodaj pliki i porównaj PIN na obu ekranach.">Connect to the receiving device, choose your files, then compare the PIN on both screens.</p>
+    <section class="invitation" aria-labelledby="invite-title">
+      <h2 id="invite-title" data-en="Your invitation" data-pl="Twoje zaproszenie">Your invitation</h2>
+      <p id="status" role="status" aria-live="polite">Checking invitation…</p>
+      <p class="small" data-en="Open BlueAirShare and choose Scan QR to scan the receiver again. If Safari shows the BlueAirShare banner above, its Open button can launch the app." data-pl="Otwórz BlueAirShare, wybierz Skanuj QR i ponownie zeskanuj kod odbiorcy. Jeśli Safari pokazuje u góry baner BlueAirShare, przycisk Otwórz może uruchomić aplikację.">Open BlueAirShare and choose Scan QR to scan the receiver again. If Safari shows the BlueAirShare banner above, its Open button can launch the app.</p>
+    </section>
+    <section aria-labelledby="install-title">
+      <h2 id="install-title" data-en="First time here?" data-pl="Nie masz jeszcze aplikacji?">First time here?</h2>
+      <ol>
+        <li data-en="Install BlueAirShare from your device’s store." data-pl="Zainstaluj BlueAirShare ze sklepu swojego urządzenia.">Install BlueAirShare from your device’s store.</li>
+        <li data-en="Keep the receiver awake in BlueAirShare, on a reachable local Wi-Fi network." data-pl="Pozostaw BlueAirShare otwarte na odbiorcy. Oba urządzenia muszą być osiągalne w sieci lokalnej Wi-Fi.">Keep the receiver awake in BlueAirShare, on a reachable local Wi-Fi network.</li>
+        <li data-en="After installation, open BlueAirShare and scan a still-valid QR again inside the app. Return here if you need these steps." data-pl="Po instalacji otwórz BlueAirShare i ponownie zeskanuj w aplikacji nadal ważny QR. Możesz wrócić tutaj do instrukcji.">After installation, open BlueAirShare and scan a still-valid QR again inside the app. Return here if you need these steps.</li>
+      </ol>
+      <nav class="stores" aria-label="Download BlueAirShare">
+        <a id="ios" class="store" href="https://apps.apple.com/app/id6823689893" rel="noreferrer">App Store <span>iPhone · iPad</span></a>
+        <a id="android" class="store" href="https://play.google.com/store/apps/details?id=com.konradwitkowski.blueairshare" rel="noreferrer">Google Play <span>Android</span></a>
+      </nav>
+      <p class="small" data-en="The app is being prepared for public release. A store listing may not yet be available to everyone." data-pl="Aplikacja jest przygotowywana do publicznego wydania. Oferta sklepu może jeszcze nie być dostępna dla wszystkich.">The app is being prepared for public release. A store listing may not yet be available to everyone.</p>
+    </section>
+    <aside>
+      <p data-en="Installation does not automatically carry the invitation into the iOS app. If the code expires or was already used, ask the receiver for a new one." data-pl="Instalacja na iOS nie przenosi automatycznie zaproszenia do aplikacji. Jeśli kod wygasł lub został użyty, poproś odbiorcę o nowy.">Installation does not automatically carry the invitation into the iOS app. If the code expires or was already used, ask the receiver for a new one.</p>
+      <p data-en="QR does not bypass Wi-Fi client isolation. Files stay on the local connection; Bluetooth does not carry them. Always compare the six-digit PIN and explicitly accept the files." data-pl="QR nie omija izolacji urządzeń w Wi-Fi. Pliki są przesyłane lokalnie, a nie przez Bluetooth. Zawsze porównaj sześciocyfrowy PIN i jawnie zaakceptuj pliki.">QR does not bypass Wi-Fi client isolation. Files stay on the local connection; Bluetooth does not carry them. Always compare the six-digit PIN and explicitly accept the files.</p>
+    </aside>
+    <noscript>JavaScript is required to check this invitation. Install BlueAirShare using the store links above, then scan a fresh receiver QR inside the app. Do not paste the invitation into support messages.</noscript>
+  </main>
+  <footer><a href="../privacy.html" data-en="Privacy" data-pl="Prywatność">Privacy</a><a href="../support.html" data-en="Help" data-pl="Pomoc">Help</a><a href="mailto:witkompapp@gmail.com">witkompapp@gmail.com</a></footer>
+</body>
+</html>

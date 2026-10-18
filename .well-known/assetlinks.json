@@ -1,0 +1,14 @@
+[
+  {
+    "relation": [
+      "delegate_permission/common.handle_all_urls"
+    ],
+    "target": {
+      "namespace": "android_app",
+      "package_name": "com.konradwitkowski.blueairshare",
+      "sha256_cert_fingerprints": [
+        "DE:6F:90:DE:EC:BD:7F:05:64:BC:0D:77:3B:9C:CE:B5:BE:B2:F1:5C:59:FA:04:B0:48:55:2E:FE:B2:C1:F1:80"
+      ]
+    }
+  }
+]
