@@ -1,38 +1,38 @@
 {
   "en": [
     "In-app purchase",
-    "Available in version 1.1. Trips with up to 20 stops are free. An optional one-time App Store purchase unlocks more stops. Apple processes payment; MapGuide does not receive your payment card details. StoreKit verifies the purchase on your device and supplies the entitlement again after restart or restoration. We do not send transactions to a MapGuide server or include the entitlement in exported backups. Restore uses the same Apple Account; Google Play purchases are separate."
+    "Available in version 1.1. Trips with up to 20 stops are free. An optional one-time App Store purchase unlocks more stops. Apple processes payment; MapGuide does not receive your payment card details. StoreKit verifies the purchase on your device and supplies the entitlement again after restart or restoration. We do not send transactions to a MapGuide server or include the entitlement in exported backups. Restore uses the same Apple Account."
   ],
   "pl": [
     "Zakup w aplikacji",
-    "Dostępne w wersji 1.1. Trasy do 20 punktów są bezpłatne. Opcjonalny jednorazowy zakup w App Store odblokowuje więcej punktów. Płatność obsługuje Apple; MapGuide nie otrzymuje danych karty płatniczej. StoreKit weryfikuje zakup na urządzeniu i udostępnia uprawnienie po restarcie lub przywróceniu. Nie wysyłamy transakcji na serwer MapGuide ani nie zapisujemy uprawnienia w eksportowanych kopiach. Przywracanie korzysta z tego samego konta Apple; zakupy Google Play są niezależne."
+    "Dostępne w wersji 1.1. Trasy do 20 punktów są bezpłatne. Opcjonalny jednorazowy zakup w App Store odblokowuje więcej punktów. Płatność obsługuje Apple; MapGuide nie otrzymuje danych karty płatniczej. StoreKit weryfikuje zakup na urządzeniu i udostępnia uprawnienie po restarcie lub przywróceniu. Nie wysyłamy transakcji na serwer MapGuide ani nie zapisujemy uprawnienia w eksportowanych kopiach. Przywracanie korzysta z tego samego konta Apple."
   ],
   "de": [
     "In-App-Kauf",
-    "Verfügbar ab Version 1.1. Routen mit bis zu 20 Stopps sind kostenlos. Ein optionaler einmaliger App-Store-Kauf schaltet mehr Stopps frei. Apple verarbeitet die Zahlung; MapGuide erhält keine Kartendaten. StoreKit verifiziert den Kauf auf dem Gerät und stellt den Zugriff nach Neustart oder Wiederherstellung bereit. Transaktionen werden nicht an einen MapGuide-Server gesendet und die Berechtigung wird nicht in Backups exportiert. Die Wiederherstellung nutzt denselben Apple Account; Google-Play-Käufe sind unabhängig."
+    "Verfügbar ab Version 1.1. Routen mit bis zu 20 Stopps sind kostenlos. Ein optionaler einmaliger App-Store-Kauf schaltet mehr Stopps frei. Apple verarbeitet die Zahlung; MapGuide erhält keine Kartendaten. StoreKit verifiziert den Kauf auf dem Gerät und stellt den Zugriff nach Neustart oder Wiederherstellung bereit. Transaktionen werden nicht an einen MapGuide-Server gesendet und die Berechtigung wird nicht in Backups exportiert. Die Wiederherstellung nutzt denselben Apple Account."
   ],
   "es": [
     "Compra dentro de la app",
-    "Disponible en la versión 1.1. Las rutas de hasta 20 paradas son gratuitas. Una compra única opcional en el App Store desbloquea más paradas. Apple procesa el pago; MapGuide no recibe los datos de tu tarjeta. StoreKit verifica la compra en el dispositivo y recupera el acceso al reiniciar o restaurar. No enviamos transacciones a un servidor de MapGuide ni exportamos el permiso en copias de seguridad. La restauración usa la misma cuenta de Apple; las compras de Google Play son independientes."
+    "Disponible en la versión 1.1. Las rutas de hasta 20 paradas son gratuitas. Una compra única opcional en el App Store desbloquea más paradas. Apple procesa el pago; MapGuide no recibe los datos de tu tarjeta. StoreKit verifica la compra en el dispositivo y recupera el acceso al reiniciar o restaurar. No enviamos transacciones a un servidor de MapGuide ni exportamos el permiso en copias de seguridad. La restauración usa la misma cuenta de Apple."
   ],
   "fr": [
     "Achat intégré",
-    "Disponible dans la version 1.1. Les trajets de 20 étapes maximum sont gratuits. Un achat unique facultatif dans l’App Store débloque davantage d’étapes. Apple traite le paiement ; MapGuide ne reçoit pas vos coordonnées bancaires. StoreKit vérifie l’achat sur l’appareil et rétablit les droits après redémarrage ou restauration. Les transactions ne sont pas envoyées à un serveur MapGuide et les droits ne sont pas exportés dans les sauvegardes. La restauration utilise le même compte Apple ; les achats Google Play sont indépendants."
+    "Disponible dans la version 1.1. Les trajets de 20 étapes maximum sont gratuits. Un achat unique facultatif dans l’App Store débloque davantage d’étapes. Apple traite le paiement ; MapGuide ne reçoit pas vos coordonnées bancaires. StoreKit vérifie l’achat sur l’appareil et rétablit les droits après redémarrage ou restauration. Les transactions ne sont pas envoyées à un serveur MapGuide et les droits ne sont pas exportés dans les sauvegardes. La restauration utilise le même compte Apple."
   ],
   "it": [
     "Acquisto in-app",
-    "Disponibile nella versione 1.1. I percorsi fino a 20 tappe sono gratuiti. Un acquisto una tantum facoltativo nell’App Store sblocca più tappe. Apple gestisce il pagamento; MapGuide non riceve i dati della carta. StoreKit verifica l’acquisto sul dispositivo e ripristina l’accesso dopo il riavvio o il ripristino. Non inviamo transazioni a un server MapGuide e non esportiamo il diritto nei backup. Il ripristino usa lo stesso Apple Account; gli acquisti Google Play sono indipendenti."
+    "Disponibile nella versione 1.1. I percorsi fino a 20 tappe sono gratuiti. Un acquisto una tantum facoltativo nell’App Store sblocca più tappe. Apple gestisce il pagamento; MapGuide non riceve i dati della carta. StoreKit verifica l’acquisto sul dispositivo e ripristina l’accesso dopo il riavvio o il ripristino. Non inviamo transazioni a un server MapGuide e non esportiamo il diritto nei backup. Il ripristino usa lo stesso Apple Account."
   ],
   "uk": [
     "Покупка в застосунку",
-    "Доступно у версії 1.1. Маршрути до 20 точок безкоштовні. Необов’язкова одноразова покупка в App Store дозволяє більше точок. Платіж обробляє Apple; MapGuide не отримує даних платіжної картки. StoreKit перевіряє покупку на пристрої та відновлює доступ після перезапуску або відновлення. Ми не надсилаємо транзакції на сервер MapGuide й не включаємо право доступу в експортовані копії. Відновлення використовує той самий обліковий запис Apple; покупки Google Play незалежні."
+    "Доступно у версії 1.1. Маршрути до 20 точок безкоштовні. Необов’язкова одноразова покупка в App Store дозволяє більше точок. Платіж обробляє Apple; MapGuide не отримує даних платіжної картки. StoreKit перевіряє покупку на пристрої та відновлює доступ після перезапуску або відновлення. Ми не надсилаємо транзакції на сервер MapGuide й не включаємо право доступу в експортовані копії. Відновлення використовує той самий обліковий запис Apple."
   ],
   "zh-Hans": [
     "App内购买",
-    "在1.1版本中提供。最多20个站点的路线免费。可选的一次性App Store购买可解锁更多站点。Apple处理付款；MapGuide不会收到银行卡信息。StoreKit在设备上验证购买，并在重启或恢复后提供使用权限。我们不会将交易发送到MapGuide服务器，也不会将购买权限包含在导出的备份中。恢复需使用同一Apple账户；Google Play购买相互独立。"
+    "在1.1版本中提供。最多20个站点的路线免费。可选的一次性App Store购买可解锁更多站点。Apple处理付款；MapGuide不会收到银行卡信息。StoreKit在设备上验证购买，并在重启或恢复后提供使用权限。我们不会将交易发送到MapGuide服务器，也不会将购买权限包含在导出的备份中。恢复需使用同一Apple账户。"
   ],
   "ja": [
     "アプリ内購入",
-    "バージョン1.1で利用できます。20地点までのルートは無料です。任意のApp Store買い切り購入で地点数を解除できます。支払いはAppleが処理し、MapGuideはカード情報を受け取りません。StoreKitが端末上で購入を検証し、再起動や復元後に利用権を提供します。取引をMapGuideサーバーへ送信したり、利用権をバックアップに含めたりしません。復元には同じApple Accountを使用します。Google Playの購入は別管理です。"
+    "バージョン1.1で利用できます。20地点までのルートは無料です。任意のApp Store買い切り購入で地点数を解除できます。支払いはAppleが処理し、MapGuideはカード情報を受け取りません。StoreKitが端末上で購入を検証し、再起動や復元後に利用権を提供します。取引をMapGuideサーバーへ送信したり、利用権をバックアップに含めたりしません。復元には同じApple Accountを使用します。"
   ]
 }
