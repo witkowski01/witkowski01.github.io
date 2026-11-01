@@ -1,0 +1,47 @@
+{
+  "en": [
+    "Local AI and place previews",
+    "Available in version 1.1. Trip preferences and Apple Maps search results are processed by Apple Intelligence on your device. This feature does not use Private Cloud Compute, a paid AI API, or a MapGuide server. Translation also runs on your device; Apple may ask to download language packs. Searches derived from your preferences, place details, routes and Look Around previews use Apple Maps services over the internet.",
+    "Itineraries are saved locally. Look Around images are held temporarily in memory, cleared when the app enters the background, and excluded from backups. Copying instructions and pasting an answer is optional. If you share the copied text with an external assistant, that service processes it under its own privacy policy."
+  ],
+  "pl": [
+    "Lokalne AI i podglądy miejsc",
+    "Dostępne w wersji 1.1. Preferencje wycieczki i wyniki wyszukiwania Apple Maps są przetwarzane przez Apple Intelligence na Twoim urządzeniu. Ta funkcja nie korzysta z Private Cloud Compute, płatnego API AI ani serwera MapGuide. Tłumaczenie również odbywa się na urządzeniu; Apple może poprosić o pobranie pakietów językowych. Wyszukiwania wynikające z preferencji, szczegóły miejsc, trasy i podglądy Look Around korzystają z usług Apple Maps przez internet.",
+    "Plany wycieczek są zapisywane lokalnie. Obrazy Look Around są tymczasowo przechowywane w pamięci, usuwane po przejściu aplikacji w tło i nie trafiają do kopii zapasowej. Kopiowanie instrukcji i wklejanie odpowiedzi jest opcjonalne. Gdy udostępnisz skopiowany tekst zewnętrznemu asystentowi, ta usługa przetwarza go zgodnie z własną polityką prywatności."
+  ],
+  "de": [
+    "Lokale KI und Ortsvorschauen",
+    "Verfügbar ab Version 1.1. Reisepräferenzen und Apple-Maps-Suchergebnisse werden von Apple Intelligence auf deinem Gerät verarbeitet. Diese Funktion verwendet weder Private Cloud Compute noch eine kostenpflichtige KI-API oder einen MapGuide-Server. Auch die Übersetzung erfolgt auf deinem Gerät; Apple kann zum Herunterladen von Sprachpaketen auffordern. Aus deinen Präferenzen abgeleitete Suchanfragen, Ortsdetails, Routen und Look-Around-Vorschauen nutzen Apple Maps über das Internet.",
+    "Reisepläne werden lokal gespeichert. Look-Around-Bilder werden vorübergehend im Arbeitsspeicher gehalten, beim Wechsel in den Hintergrund gelöscht und nicht in Backups aufgenommen. Das Kopieren von Anweisungen und Einfügen einer Antwort ist optional. Wenn du den kopierten Text mit einem externen Assistenten teilst, verarbeitet dieser Dienst ihn gemäß seiner eigenen Datenschutzrichtlinie."
+  ],
+  "es": [
+    "IA local y vistas previas de lugares",
+    "Disponible en la versión 1.1. Apple Intelligence procesa las preferencias del viaje y los resultados de Apple Maps en tu dispositivo. Esta función no utiliza Private Cloud Compute, una API de IA de pago ni un servidor de MapGuide. La traducción también se realiza en el dispositivo; Apple puede solicitar la descarga de paquetes de idiomas. Las búsquedas derivadas de tus preferencias, los detalles de lugares, las rutas y las vistas de Look Around utilizan Apple Maps por internet.",
+    "Los itinerarios se guardan localmente. Las imágenes de Look Around se conservan temporalmente en memoria, se eliminan cuando la aplicación pasa a segundo plano y no se incluyen en las copias de seguridad. Copiar instrucciones y pegar una respuesta es opcional. Si compartes el texto con un asistente externo, ese servicio lo procesa según su propia política de privacidad."
+  ],
+  "fr": [
+    "IA locale et aperçus des lieux",
+    "Disponible dans la version 1.1. Apple Intelligence traite les préférences de voyage et les résultats Apple Plans sur votre appareil. Cette fonction n’utilise ni Private Cloud Compute, ni API d’IA payante, ni serveur MapGuide. La traduction s’effectue également sur l’appareil ; Apple peut demander de télécharger des packs de langues. Les recherches issues de vos préférences, les détails des lieux, les itinéraires et les aperçus Look Around utilisent Apple Plans via internet.",
+    "Les programmes sont enregistrés localement. Les images Look Around sont conservées temporairement en mémoire, supprimées lorsque l’application passe en arrière-plan et exclues des sauvegardes. Copier les instructions et coller une réponse est facultatif. Si vous partagez le texte avec un assistant externe, ce service le traite selon sa propre politique de confidentialité."
+  ],
+  "it": [
+    "IA locale e anteprime dei luoghi",
+    "Disponibile nella versione 1.1. Apple Intelligence elabora le preferenze di viaggio e i risultati di Apple Mappe sul dispositivo. Questa funzione non usa Private Cloud Compute, API di IA a pagamento o server MapGuide. Anche la traduzione avviene sul dispositivo; Apple può chiedere di scaricare pacchetti di lingue. Le ricerche ricavate dalle preferenze, i dettagli dei luoghi, i percorsi e le anteprime Look Around usano Apple Mappe tramite internet.",
+    "Gli itinerari sono salvati localmente. Le immagini Look Around restano temporaneamente in memoria, vengono eliminate quando l’app passa in secondo piano e sono escluse dai backup. Copiare le istruzioni e incollare una risposta è facoltativo. Se condividi il testo con un assistente esterno, quel servizio lo elabora secondo la propria informativa sulla privacy."
+  ],
+  "uk": [
+    "Локальний ШІ та попередній перегляд місць",
+    "Доступно у версії 1.1. Apple Intelligence обробляє побажання щодо подорожі та результати пошуку Apple Maps на вашому пристрої. Ця функція не використовує Private Cloud Compute, платний API ШІ чи сервер MapGuide. Переклад також відбувається на пристрої; Apple може запропонувати завантажити мовні пакети. Пошукові запити на основі ваших побажань, відомості про місця, маршрути та перегляди Look Around використовують Apple Maps через інтернет.",
+    "Плани подорожей зберігаються локально. Зображення Look Around тимчасово зберігаються в оперативній пам’яті, видаляються після переходу застосунку у фоновий режим і не входять до резервних копій. Копіювання інструкцій і вставлення відповіді є необов’язковими. Якщо ви передаєте текст зовнішньому помічнику, цей сервіс обробляє його за власною політикою конфіденційності."
+  ],
+  "zh-Hans": [
+    "本地 AI 与地点预览",
+    "在1.1版本中提供。Apple Intelligence 在你的设备上处理旅行偏好和 Apple 地图搜索结果。此功能不使用私有云计算、付费 AI API 或 MapGuide 服务器。翻译也在设备上完成；Apple 可能会请求下载语言包。根据偏好生成的搜索、地点详情、路线和 Look Around 预览通过互联网使用 Apple 地图服务。",
+    "行程保存在本地。Look Around 图像仅临时保存在内存中，应用进入后台时会被清除，且不包含在备份中。复制指令和粘贴回答是可选操作。如果你将复制的文本分享给外部助手，该服务会按照其自身隐私政策处理文本。"
+  ],
+  "ja": [
+    "ローカル AI と場所のプレビュー",
+    "バージョン1.1で利用できます。旅行の希望と Apple マップの検索結果は、端末上の Apple Intelligence で処理されます。この機能は Private Cloud Compute、有料の AI API、MapGuide サーバーを使用しません。翻訳も端末上で行われ、Apple が言語パックのダウンロードを求める場合があります。希望から生成された検索、場所の詳細、経路、Look Around プレビューは、インターネット経由で Apple マップを使用します。",
+    "旅行プランはローカルに保存されます。Look Around の画像は一時的にメモリに保持され、アプリがバックグラウンドに移ると消去され、バックアップには含まれません。指示のコピーと回答の貼り付けは任意です。コピーした文章を外部アシスタントに共有すると、そのサービス独自のプライバシーポリシーに従って処理されます。"
+  ]
+}

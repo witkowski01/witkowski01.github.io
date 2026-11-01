@@ -11,9 +11,9 @@ EMAIL = "witkompapp@gmail.com"
 DATA = {
 "en": {
 "features":"How it works", "support":"Support", "policy":"Privacy policy", "skip":"Skip to content", "language":"Polski", "other":"pl",
-"status":"For iPhone & iPad · In development", "title":"Your places.<br>A plan that<br><em>makes sense.</em>",
+"status":"For iPhone & iPad · Available on the App Store", "title":"Your places.<br>A plan that<br><em>makes sense.</em>",
 "description":"Turn your sightseeing ideas into an organized trip. Keep places and notes together, choose what to visit, and put your route in order.",
-"explore":"Explore MapGuide", "contact":"Get support", "availability":"Preparing for beta testing. Public download coming later.",
+"explore":"Download on the App Store", "contact":"Get support", "availability":"Version 1.0 is available now with up to 20 stops per trip. Version 1.1, with an optional one-time unlock, is being prepared for testing.",
 "captions":["Save places","Arrange your day","Head out"],
 "strip":["iPhone & iPad · iOS 18.4+","No account needed","Your lists, stored locally","9 app languages"],
 "section_eyebrow":"Less scattered. More explored.", "section_title":"From “let’s go there”<br>to a day well planned.",
@@ -44,7 +44,7 @@ DATA = {
 ("Why can’t I find a place or compare a route?","Check your internet connection and try a more specific place name or area. Apple Maps coverage and rate limits may affect results. You can also save a place manually using coordinates."),
 ("How do I use my current location?","Choose the current-location option when saving a place or setting your trip start. If permission is denied, review MapGuide’s location permission in iOS Settings. You can still enter a location manually."),
 ("How do I delete my data?","Delete lists and trips in the app, then use the option to remove unused places in Settings. Discard any saved import draft in the importer. Deleting the app removes its local data; exported backups remain wherever you saved them."),
-("Where can I download MapGuide?","MapGuide is being prepared for beta testing. There is no public App Store or TestFlight download link yet. This page will be updated when one is available.")],
+("Where can I download MapGuide?","MapGuide is available on the App Store. Use the download link on the home page. TestFlight builds are available to invited testers; they may include features not yet released publicly.")],
 "support_privacy":"MapGuide does not require an account. Read our privacy policy for information about local data, map services, and this website.",
 "policy_intro":"How MapGuide for iOS handles your information, and what happens when you visit this website or contact support.",
 "updated":"Updated October 14, 2026", "contents":"On this page",
@@ -75,9 +75,9 @@ DATA = {
 ]},
 "pl": {
 "features":"Jak to działa", "support":"Pomoc", "policy":"Polityka prywatności", "skip":"Przejdź do treści", "language":"English", "other":"en",
-"status":"Na iPhone’a i iPada · W przygotowaniu", "title":"Twoje miejsca.<br>Plan, który<br><em>ma sens.</em>",
+"status":"Na iPhone’a i iPada · Dostępne w App Store", "title":"Twoje miejsca.<br>Plan, który<br><em>ma sens.</em>",
 "description":"Zamień pomysły na zwiedzanie w uporządkowaną wycieczkę. Zbierz miejsca i notatki, wybierz, co chcesz odwiedzić, i ułóż kolejność trasy.",
-"explore":"Poznaj MapGuide", "contact":"Potrzebujesz pomocy?", "availability":"Przygotowujemy testy beta. Publiczne pobieranie udostępnimy później.",
+"explore":"Pobierz z App Store", "contact":"Potrzebujesz pomocy?", "availability":"Wersja 1.0 jest dostępna z limitem 20 punktów wycieczki. Wersję 1.1 z opcjonalnym jednorazowym odblokowaniem przygotowujemy do testów.",
 "captions":["Zapisz miejsca","Ułóż swój dzień","Ruszaj w drogę"],
 "strip":["iPhone i iPad · iOS 18.4+","Bez zakładania konta","Listy zapisane lokalnie","9 języków aplikacji"],
 "section_eyebrow":"Mniej chaosu. Więcej zwiedzania.", "section_title":"Od „chodźmy tam”<br>do dobrego planu dnia.",
@@ -108,7 +108,7 @@ DATA = {
 ("Dlaczego nie mogę znaleźć miejsca lub porównać trasy?","Sprawdź połączenie z internetem i spróbuj dokładniejszej nazwy albo obszaru. Wyniki zależą od pokrycia Apple Maps i limitów zapytań. Miejsce możesz też dodać ręcznie, podając współrzędne."),
 ("Jak użyć bieżącej lokalizacji?","Wybierz bieżącą lokalizację podczas zapisywania miejsca lub ustawiania początku wycieczki. Jeśli dostęp jest zablokowany, sprawdź uprawnienia MapGuide w Ustawieniach iOS. Możesz też podać położenie ręcznie."),
 ("Jak usunąć swoje dane?","Usuń listy i wycieczki w aplikacji, a następnie skorzystaj z usuwania nieużywanych miejsc w Ustawieniach. Zapisany szkic importu odrzuć w importerze. Usunięcie aplikacji usuwa jej dane lokalne; wyeksportowane kopie pozostają w miejscach, w których je zapisano."),
-("Skąd mogę pobrać MapGuide?","Przygotowujemy aplikację do testów beta. Publiczny link do App Store lub TestFlight nie jest jeszcze dostępny. Zaktualizujemy tę stronę, gdy będzie można pobrać aplikację.")],
+("Skąd mogę pobrać MapGuide?","MapGuide jest dostępne w App Store. Link do pobrania znajdziesz na stronie głównej. Wersje TestFlight są dostępne dla zaproszonych testerów i mogą zawierać funkcje, których jeszcze nie opublikowano.")],
 "support_privacy":"MapGuide nie wymaga konta. Informacje o danych lokalnych, usługach mapowych i tej stronie znajdziesz w polityce prywatności.",
 "policy_intro":"Jak MapGuide na iOS przetwarza informacje oraz co dzieje się podczas odwiedzania tej strony i kontaktu z pomocą.",
 "updated":"Aktualizacja: 14 października 2026 r.", "contents":"Na tej stronie",
@@ -138,8 +138,32 @@ DATA = {
 ]}
 }
 
+
+for lang in DATA:
+    d = DATA[lang]
+    d["terms"] = "Terms of use" if lang == "en" else "Regulamin"
+    d["terms_intro"] = "Using MapGuide and its optional in-app purchase." if lang == "en" else "Zasady korzystania z MapGuide i opcjonalnego zakupu w aplikacji."
+    purchase_faqs = [
+        ("What does the one-time purchase unlock?", "In version 1.1, trips of up to 20 stops remain free. One optional non-consumable purchase removes the 20-stop limit for new trips, without a subscription. The US base price is $0.99; the app shows the current local App Store price before you confirm. Import limits, AI suggestion limits and external map limits still apply."),
+        ("How do I restore my purchase?", "In Settings, open Purchases and choose Restore Apple purchases while using the same Apple Account. The unlock remains available after restarting the app. Apple and Google Play purchases are independent: Restore on iOS restores Apple purchases only. An exported backup does not transfer the purchase."),
+        ("How does local AI work?", "Version 1.1 adds on-device planning on compatible devices with iOS 26 or later and Apple Intelligence enabled and ready. Map searches still require internet. Core planning, imports and purchases work without Apple Intelligence. Review AI proposals before saving them.")
+    ] if lang == "en" else [
+        ("Co odblokowuje jednorazowy zakup?", "W wersji 1.1 trasy do 20 punktów pozostają bezpłatne. Opcjonalny zakup jednorazowy znosi limit 20 punktów w nowych wycieczkach, bez abonamentu. Cena bazowa w USA wynosi 0,99 USD; przed potwierdzeniem aplikacja pokazuje aktualną lokalną cenę App Store. Limity importu, propozycji AI i zewnętrznych map nadal obowiązują."),
+        ("Jak przywrócić zakup?", "W Ustawieniach otwórz Zakupy i wybierz Przywróć zakupy Apple, korzystając z tego samego konta Apple. Uprawnienie pozostaje dostępne po restarcie aplikacji. Zakupy Apple i Google Play są niezależne: przywracanie na iOS obejmuje wyłącznie zakupy Apple. Eksport kopii danych nie przenosi zakupu."),
+        ("Jak działa lokalne AI?", "Wersja 1.1 dodaje planowanie na urządzeniu zgodnym z Apple Intelligence, z iOS 26 lub nowszym oraz włączonym i gotowym Apple Intelligence. Wyszukiwanie na mapie nadal wymaga internetu. Podstawowe planowanie, import i zakupy działają bez Apple Intelligence. Przed zapisem sprawdź propozycje AI.")
+    ]
+    d["help_faqs"].extend(purchase_faqs)
+    d["faqs"].append(purchase_faqs[0])
+
 POLICY_LANGUAGES = {"en":"English", "pl":"Polski", "de":"Deutsch", "es":"Español", "fr":"Français", "it":"Italiano", "uk":"Українська", "zh-Hans":"简体中文", "ja":"日本語"}
 POLICY_DATA = {"en": DATA["en"], "pl": DATA["pl"], **json.loads(Path(__file__).with_name("privacy-translations.json").read_text(encoding="utf-8"))}
+
+
+for lang, d in POLICY_DATA.items():
+    for section_id, filename in [("local-ai", "privacy-local-ai.json"), ("purchases", "privacy-purchases.json")]:
+        heading, *paragraphs = json.loads(Path(__file__).with_name(filename).read_text(encoding="utf-8"))[lang]
+        d["sections"].append((section_id, heading, [escape(p) for p in paragraphs]))
+    d["updated"] = "2026-11-01"
 
 
 def url(lang, page=""):
@@ -150,8 +174,8 @@ def faq(items):
 
 def layout(lang, page, body):
     d=DATA[lang]
-    title = d["policy"] if page=="privacy" else d["support"] if page=="support" else "Your places. A plan that makes sense." if lang=="en" else "Twoje miejsca. Plan, który ma sens."
-    description = d["policy_intro"] if page=="privacy" else d["support_intro"] if page=="support" else d["description"]
+    title = d["terms"] if page=="terms" else d["policy"] if page=="privacy" else d["support"] if page=="support" else "Your places. A plan that makes sense." if lang=="en" else "Twoje miejsca. Plan, który ma sens."
+    description = d["terms_intro"] if page=="terms" else d["policy_intro"] if page=="privacy" else d["support_intro"] if page=="support" else d["description"]
     current = ' aria-current="page"' if page=="support" else ''
     return f'''<!doctype html>
 <html lang="{lang}"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
@@ -162,13 +186,13 @@ def layout(lang, page, body):
 <link rel="icon" type="image/png" href="/mapguide/assets/mapguide-icon-4f.png"><link rel="apple-touch-icon" href="/mapguide/assets/mapguide-icon-4f-square.png"><link rel="stylesheet" href="/mapguide/styles.css"></head><body>
 <a class="skip" href="#main">{d['skip']}</a><header class="site-header"><div class="wrap header-inner"><a class="brand" href="{url(lang)}" aria-label="MapGuide"><img src="/mapguide/assets/mapguide-icon-4f.png" width="46" height="46" alt="">MapGuide</a><nav class="site-nav" aria-label="{'Main navigation' if lang=='en' else 'Nawigacja główna'}"><a class="nav-features" href="{url(lang)}#how-it-works">{d['features']}</a><a href="{url(lang,'support')}"{current}>{d['support']}</a><a class="language" href="{url(d['other'],page)}" lang="{d['other']}" hreflang="{d['other']}">{d['language']}</a></nav></div></header>
 {body}
-<footer class="site-footer"><div class="wrap footer-inner"><div><div class="footer-brand">MapGuide</div><span>© 2026 · {d['footer']}</span></div><nav class="footer-nav" aria-label="{'Footer' if lang=='en' else 'Stopka'}"><a href="{url(lang,'support')}">{d['support']}</a><a href="{url(lang,'privacy')}">{d['policy']}</a><a href="mailto:{EMAIL}">{EMAIL}</a></nav></div></footer></body></html>'''
+<footer class="site-footer"><div class="wrap footer-inner"><div><div class="footer-brand">MapGuide</div><span>© 2026 · {d['footer']}</span></div><nav class="footer-nav" aria-label="{'Footer' if lang=='en' else 'Stopka'}"><a href="{url(lang,'support')}">{d['support']}</a><a href="{url(lang,'privacy')}">{d['policy']}</a><a href="{url(lang,'terms')}">{d['terms']}</a><a href="mailto:{EMAIL}">{EMAIL}</a></nav></div></footer></body></html>'''
 
 def home(lang):
     d=DATA[lang]
     strip=''.join(f'<span>{escape(t)}</span>' for t in d['strip'])
     steps=''.join(f'<article class="step"><span class="step-number">0{i}</span><h3>{escape(t)}</h3><p>{escape(p)}</p></article>' for i,(t,p) in enumerate(d['steps'],1))
-    return f'''<main id="main"><div class="wrap"><section class="hero" aria-labelledby="hero-title"><div><p class="eyebrow"><span class="status-dot"></span>{d['status']}</p><h1 id="hero-title">{d['title']}</h1><p class="lede">{d['description']}</p><div class="actions"><a class="button" href="#how-it-works">{d['explore']} <span aria-hidden="true">↗</span></a><a class="text-link" href="{url(lang,'support')}">{d['contact']} <span aria-hidden="true">→</span></a></div><p class="small-note">{d['availability']}</p></div><div class="hero-art"><img class="hero-icon" src="/mapguide/assets/mapguide-icon-4f.png" width="1024" height="1024" alt="{'MapGuide icon: a blue pin over a layered map and route' if lang=='en' else 'Ikona MapGuide: niebieska pinezka nad warstwową mapą i trasą'}" fetchpriority="high"><p class="art-caption">{''.join(f'<span>{t}</span>' for t in d['captions'])}</p></div></section><div class="platform-strip">{strip}</div>
+    return f'''<main id="main"><div class="wrap"><section class="hero" aria-labelledby="hero-title"><div><p class="eyebrow"><span class="status-dot"></span>{d['status']}</p><h1 id="hero-title">{d['title']}</h1><p class="lede">{d['description']}</p><div class="actions"><a class="button" href="https://apps.apple.com/app/id6822812965">{d['explore']} <span aria-hidden="true">↗</span></a><a class="text-link" href="{url(lang,'support')}">{d['contact']} <span aria-hidden="true">→</span></a></div><p class="small-note">{d['availability']}</p></div><div class="hero-art"><img class="hero-icon" src="/mapguide/assets/mapguide-icon-4f.png" width="1024" height="1024" alt="{'MapGuide icon: a blue pin over a layered map and route' if lang=='en' else 'Ikona MapGuide: niebieska pinezka nad warstwową mapą i trasą'}" fetchpriority="high"><p class="art-caption">{''.join(f'<span>{t}</span>' for t in d['captions'])}</p></div></section><div class="platform-strip">{strip}</div>
 <section class="section" id="how-it-works" aria-labelledby="how-title"><div class="section-intro"><div><p class="eyebrow">{d['section_eyebrow']}</p><h2 id="how-title">{d['section_title']}</h2></div><p>{d['section_text']}</p></div><div class="steps">{steps}</div><div class="example"><div class="example-label"><strong>{d['example']}</strong>{d['example_note']}</div><ol class="stops">{''.join(f'<li><span>{i}</span>{t}</li>' for i,t in enumerate(d['stops'],1))}</ol></div></section>
 <section class="privacy-callout" aria-labelledby="privacy-title"><div><p class="eyebrow">{d['privacy_eyebrow']}</p><h2 id="privacy-title">{d['privacy_title']}</h2><div class="privacy-tags">{''.join(f'<span>{t}</span>' for t in d['tags'])}</div></div><div><p>{d['privacy_text']}</p><p>{d['privacy_detail']}</p><a href="{url(lang,'privacy')}">{d['privacy_link']} <span aria-hidden="true">↗</span></a></div></section>
 <section class="section faq-layout" aria-labelledby="faq-title"><div class="faq-intro"><p class="eyebrow">FAQ</p><h2 id="faq-title">{d['faq_title']}</h2><p>{d['faq_intro']}</p></div>{faq(d['faqs'])}</section><section class="support-cta"><div><h2>{d['cta_title']}</h2><p>{d['cta_text']}</p></div><a class="button" href="{url(lang,'support')}">{d['support']} <span aria-hidden="true">↗</span></a></section></div></main>'''
@@ -181,7 +205,7 @@ def privacy(lang):
     d=POLICY_DATA[lang]
     contents=''.join(f'<li><a href="#{id}">{escape(title)}</a></li>' for id,title,_ in d['sections'])
     sections=''.join(f'<section id="{id}"><h2>{i}. {escape(title)}</h2>'+''.join('<p>'+p.replace('{email}',EMAIL)+'</p>' for p in paragraphs)+'</section>' for i,(id,title,paragraphs) in enumerate(d['sections'],1))
-    return f'''<main id="main" class="wrap"><div class="document-hero"><p class="eyebrow">MapGuide · iOS</p><h1>{d['policy']}</h1><p class="lede">{d['policy_intro']}</p><p class="meta"><time datetime="2026-10-14">{d['updated']}</time></p></div><div class="document-layout"><aside class="contents" aria-label="{d['contents']}"><strong>{d['contents']}</strong><ol>{contents}</ol></aside><article class="prose"><div class="notice"><p>{d['policy_summary']}</p></div>{sections}</article></div></main>'''
+    return f'''<main id="main" class="wrap"><div class="document-hero"><p class="eyebrow">MapGuide · iOS</p><h1>{d['policy']}</h1><p class="lede">{d['policy_intro']}</p><p class="meta"><time datetime="2026-11-01">{d['updated']}</time></p></div><div class="document-layout"><aside class="contents" aria-label="{d['contents']}"><strong>{d['contents']}</strong><ol>{contents}</ol></aside><article class="prose"><div class="notice"><p>{d['policy_summary']}</p></div>{sections}</article></div></main>'''
 
 
 def policy_layout(lang):
@@ -201,11 +225,18 @@ def policy_layout(lang):
 <body class="policy-page"><header class="site-header"><div class="wrap header-inner"><a class="brand" href="{url(home_lang)}" aria-label="MapGuide"><img src="/mapguide/assets/mapguide-icon-4f.png" width="46" height="46" alt="">MapGuide</a><a class="text-link" href="{url(home_lang,"support")}">{support_label}</a></div></header>
 <nav class="wrap policy-languages" aria-label="{label}">{languages}</nav>
 {privacy(lang)}
-<footer class="site-footer"><div class="wrap footer-inner"><div><div class="footer-brand">MapGuide</div><span>© 2026 · {d["footer"]}</span></div><a href="mailto:{EMAIL}">{EMAIL}</a></div></footer></body></html>'''
+<footer class="site-footer"><div class="wrap footer-inner"><div><div class="footer-brand">MapGuide</div><span>© 2026 · {d["footer"]}</span></div><nav class="footer-nav"><a href="{url(home_lang,'terms')}">{DATA[home_lang]['terms']}</a><a href="mailto:{EMAIL}">{EMAIL}</a></nav></div></footer></body></html>'''
 
+
+
+def terms(lang):
+    d = DATA[lang]
+    sections = json.loads(Path(__file__).with_name("terms.json").read_text(encoding="utf-8"))[lang]
+    body = ''.join(f'<section><h2>{escape(title)}</h2>' + ''.join('<p>' + p.replace('{email}', EMAIL) + '</p>' for p in paragraphs) + '</section>' for title, paragraphs in sections)
+    return f'<main id="main" class="wrap"><div class="document-hero"><p class="eyebrow">MapGuide</p><h1>{d["terms"]}</h1><p class="lede">{d["terms_intro"]}</p><p class="meta">2026-11-01</p></div><article class="prose support-main">{body}</article></main>'
 
 for lang in DATA:
-    for page,render in [("",home),("support",support)]:
+    for page,render in [("",home),("support",support),("terms",terms)]:
         directory=ROOT / (lang if lang!="en" else "") / page
         directory.mkdir(parents=True,exist_ok=True)
         (directory/"index.html").write_text(layout(lang,page,render(lang)),encoding="utf-8")
@@ -213,4 +244,4 @@ for lang in POLICY_LANGUAGES:
     directory=ROOT / (lang if lang!="en" else "") / "privacy"
     directory.mkdir(parents=True,exist_ok=True)
     (directory/"index.html").write_text(policy_layout(lang),encoding="utf-8")
-print("Built 13 MapGuide pages, including privacy policies in all 9 app languages.")
+print("Built 15 MapGuide pages, including privacy policies in all 9 app languages.")
